@@ -71,3 +71,10 @@ void display() {		// Procedure display
 	}
 	cout << endl;							// Output baris kosong
 }
+
+int main()
+{
+	input();			// memanggil input
+	insertionsort();	// memanggil insertion sort
+	display();			// memanggil display
+}

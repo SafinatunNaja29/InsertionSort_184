@@ -36,5 +36,13 @@ void insertionsort() {					// Procedure Insertionsort
 	int temp;							// Membuat variable data temporer atau penyimpanan sementara
 	int j;								// Membuat variable j sebagai penanda
 
-	
+	for (int i = 1; i < n; i++) {		// 1. Looping dengan i dimulai dari 1 hingga n-1
+
+		temp = arr[i];					// 2. Simpan nilai arr[1] ke variable sementara temp
+
+		j = i - 1;						// 3. setting nilai j sama dengan i-1;
+
+		
+
+	}
 }

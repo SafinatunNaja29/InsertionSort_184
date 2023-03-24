@@ -22,3 +22,11 @@ void input() {					// Procedure Input
 	cout << "======================" << endl;		// Membuat tampilan susunan data element array
 	cout << "Masukkan Element Array" << endl;
 	cout << "======================" << endl;
+
+
+	for (int i = 0; i < n; i++)						// Menggunakan perulangan for untuk menyimpan data pada array
+	{
+		cout << "Data ke-" << (i + 1) << ": ";		// Memasukkan atau menginputkan nilai data n
+		cin >> arr[1];								// Menyimpan nilai data n kedalam arrat arr
+	}
+}
